@@ -24,10 +24,19 @@ header {											/*estas son las caracteristicas del contenedor llamado header
 }
 
 
+#titulo_principal									/*etiqueta de titulo que queremos centrar dentro del header */
 {
 	
+		margin: 0;									/*establecemos el margen en 0 para que nos quede bien centrado*/
+		background-color: red;						/*color de fondo por si queremos diferenciar del fondo html y del body*/
+       /* color: white;							
+        border-radius: 1em;							
         padding: 1em;*/
+        position: absolute;							/*establecemos la posicion abloute para poder mover desde la posicion inicial en eje x y eje y*/
+        top: 50%;									/* establecemos de la parte de arriba del contenedor que se ubique en el 50%*/
+        left: 50%;									/* del margen izquierdo nos movemos hasta la mitad del contenedor*/
         /*margin-right: -50%;*/
+        transform: translate(-50%, -50%)			/* con esta funcion corregimos el desplazamiento ubicando la mitad del texto hacia el eje x y hacia el eje Y*/
 
 
 
