@@ -1,0 +1,57 @@
+
+html{
+
+	height: 100%;									/*Se define el alto del lienzo principal al 100% de la pantalla */
+	background-color: green;						
+}
+
+body {												/*se define el cuerpo de la pagina web y sus caracteristicas*/
+
+	height:  50%;									/*se establece el alto del cuerpo de la pagina en este caso el 50 % del tamaño total de la pagina*/
+	background-color: blue;							/*color de fondo para diferenciarlo del html*/
+}
+
+header {											/*estas son las caracteristicas del contenedor llamado header html5*/
+
+	background-color: white;						/*Color de fonto*/
+	width: 100%;									/*Ancho del contenedor el 100 % de la pantalla*/
+	height: 30%;									/*alto del contenedor es el 30% del body*/
+	position: relative;								/*importante definir como position relative para poder ubicar y centrar el contenido con position: absolute */
+
+
+
+	 
+}
+
+
+{
+	
+        padding: 1em;*/
+        /*margin-right: -50%;*/
+
+
+
+}
+#subtitulo_principal
+{
+		margin: 0;
+		background-color: blue;
+       /* color: white;
+        border-radius: 1em;
+        padding: 1em;*/
+        position: absolute;
+        top: 50%;
+        
+        /*margin-right: -50%;*/
+        transform: translate(0,-50%);
+}
+
+#caja_subtitulo
+{
+
+	background-color: yellow;
+	width: 100%;
+	height: 40%;
+	position: relative;
+
+}
