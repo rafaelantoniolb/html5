@@ -8,7 +8,7 @@ html{
 body {												/*se define el cuerpo de la pagina web y sus caracteristicas*/
 
 	height:  50%;									/*se establece el alto del cuerpo de la pagina en este caso el 50 % del tamaño total de la pagina*/
-	background-color: blue;							/*color de fondo para diferenciarlo del html*/
+	background-color: blue;			    			/*color de fondo para diferenciarlo del html*/
 }
 
 header {											/*estas son las caracteristicas del contenedor llamado header html5*/
